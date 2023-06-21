@@ -1,8 +1,7 @@
 
-#include<iostream>
-#include<vector>
-#include <list>
+#define CLASS1
 
+#ifdef CLASS0
 int main(void)
 {
 	const int Max = 10;
@@ -33,3 +32,18 @@ int main(void)
 	}
 
 }
+#elif defined CLASS1
+
+int main(void)
+{
+
+}
+
+#elif defined CLASS2
+
+int main(void)
+{
+
+}
+
+#endif // CLASS
